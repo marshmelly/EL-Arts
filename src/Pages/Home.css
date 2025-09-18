@@ -1,0 +1,21 @@
+.home-component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    padding: 0.5rem;
+}
+
+.models, .rigs, .illustration, .fan-art {
+    width: 550px;
+    height: 550px;
+    margin: 0;
+    padding-top: 2px;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fffefe;
+}
